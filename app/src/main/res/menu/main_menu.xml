@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/grpSoundChange"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/useKeyboard"
+            android:checked="true"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="Use Keyboard"
+            android:titleCondensed="Keyboard" />
+
+        <item
+            android:id="@+id/useBeatbox"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="Use Beatbox"
+            android:titleCondensed="Beatbox" />
+        <item
+            android:id="@+id/useDrums"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="Use Drums"
+            android:titleCondensed="Drums" />
+    </group>
+</menu>
